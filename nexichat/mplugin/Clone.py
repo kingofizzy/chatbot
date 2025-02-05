@@ -16,7 +16,7 @@ cloneownerdb = mongodb.cloneownerdb
 clonebotdb = mongodb.clonebotdb
 
 
-@Client.on_message(filters.command(["clone", "host", "deploy"]))
+@Client.on_message(filters.command(["ajclone", "ajhost", "ajdeploy"]))
 async def clone_txt(client, message):
     if len(message.command) > 1:
         bot_token = message.text.split("/clone", 1)[1].strip()
@@ -89,7 +89,7 @@ async def clone_txt(client, message):
         await message.reply_text("**Provide Bot Token after /clone Command from @Botfather.**\n\n**Example:** `/clone bot token paste here`")
 
 
-@Client.on_message(filters.command("cloned"))
+@Client.on_message(filters.command("ajcloned"))
 async def list_cloned_bots(client, message):
     try:
         cloned_bots = clonebotdb.find()
