@@ -55,7 +55,7 @@ EMOJIOS = [
     "🕊",
 ]
 
-BOT = "https://envs.sh/IL_.jpg"
+BOT = "https://files.catbox.moe/cdbhjb.mp4"
 IMG = [
     "https://graph.org/file/210751796ff48991b86a3.jpg",
     "https://graph.org/file/7b4924be4179f70abcf33.jpg",
@@ -152,7 +152,7 @@ async def welcomejej(client, message: Message):
                 count = await client.get_chat_members_count(chat.id)
                 username = chat.username if chat.username else "𝐏ʀɪᴠᴀᴛᴇ 𝐆ʀᴏᴜᴘ"
                 msg = (
-                    f"**📝𝐌ᴜsɪᴄ 𝐁ᴏᴛ 𝐀ᴅᴅᴇᴅ 𝐈ɴ 𝐀 #𝐍ᴇᴡ_𝐆ʀᴏᴜᴘ**\n\n"
+                    f"** 𝐁ᴏᴛ 𝐀ᴅᴅᴇᴅ 𝐈ɴ 𝐀 #𝐍ᴇᴡ_𝐆ʀᴏᴜᴘ**\n\n"
                     f"**📌𝐂ʜᴀᴛ 𝐍ᴀᴍᴇ:** {chat.title}\n"
                     f"**🍂𝐂ʜᴀᴛ 𝐈ᴅ:** `{chat.id}`\n"
                     f"**🔐𝐂ʜᴀᴛ 𝐔sᴇʀɴᴀᴍᴇ:** @{username}\n"
@@ -286,7 +286,7 @@ async def ping(client: Client, message: Message):
 
     ms = (datetime.now() - start).microseconds / 1000
     await loda.edit_text(
-        text=f"нey вαву!!\n{(await client.get_me()).mention} ᴄʜᴀᴛʙᴏᴛ ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n\n**➥** `{ms}` ms\n**➲ ᴄᴘᴜ:** {CPU}\n**➲ ʀᴀᴍ:** {RAM}\n**➲ ᴅɪsᴋ:** {DISK}\n**➲ ᴜᴘᴛɪᴍᴇ »** {UP}\n\n<b>||**๏ мαdє ωιтн ❣️ ву [ʟᴇɢᴇɴᴅ ᴍɪᴄᴋᴇʏ](https://t.me/{OWNER_USERNAME}) **||</b>",
+        text=f"нey вαву!!\n{(await client.get_me()).mention} ᴄʜᴀᴛʙᴏᴛ ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n\n**➥** `{ms}` ms\n**➲ ᴄᴘᴜ:** {CPU}\n**➲ ʀᴀᴍ:** {RAM}\n**➲ ᴅɪsᴋ:** {DISK}\n**➲ ᴜᴘᴛɪᴍᴇ »** {UP}\n\n<b>||** ⧼𝀤ٜ𝐃𝝴𝛄𝝴𝖑𖦹𝞀𝖗 𞥇⥇⃭̇⚡ ⃔ ͓ᯓ꯭🤴🏻𝐈 ᴢ ᴢ ʏ ʏ ɪ Ꝛ » **||</b>",
         reply_markup=InlineKeyboardMarkup(PNG_BTN),
     )
     if message.chat.type == ChatType.PRIVATE:
