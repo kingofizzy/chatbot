@@ -10,7 +10,7 @@ API_HASH = "4e984ea35f854762dcde906dce426c2d"
 # --------------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN", "7551118575:AAHAHM8vtLD0FD2Zeld5feLXxCDRgGoSUps")
 STRING1 = getenv("STRING_SESSION", None)
-MONGO_URL = getenv("MONGO_URL", None)
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://architect04:architect04@cluster0.fylqb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 OWNER_ID = int(getenv("OWNER_ID", "7520092354"))
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/yourtoofan/CHATBOT")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
